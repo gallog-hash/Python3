@@ -1,0 +1,21 @@
+numbers = [5, 2, 1, 7, 4]
+numbers.append(20)
+print(numbers)
+numbers.insert(2,17)
+print(numbers)
+numbers.remove(4)
+print(numbers)
+numbers.pop() # remove last item in a list
+print(numbers)
+print(20 in numbers) # using the index function, it will generate an error if the item isn't in the list
+print(numbers.index(5))
+numbers.insert(0,5)
+print(numbers.count(5))
+numbers.sort()
+print(numbers)
+numbers.reverse()
+print(numbers)
+numbers2 = numbers.copy()
+numbers.clear()
+print(numbers)
+print(numbers2)
